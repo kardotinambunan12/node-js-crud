@@ -1,0 +1,12 @@
+#membuat database restful api
+
+CREATE TABLE user (
+    user_id INT (11) PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR (100),
+    last_name VARCHAR (100),
+    age INT (11)
+    address VARCHAR (100)
+)ENGINE = INNODB;
+
+jalankan menggunkan 
+# node index
